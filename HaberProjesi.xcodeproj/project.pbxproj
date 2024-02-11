@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE3A7FE82B78FFEA00A61D06 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A7FE72B78FFEA00A61D06 /* NewsViewModel.swift */; };
 		BEF1663C2B750C3E006D53DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1663B2B750C3E006D53DA /* AppDelegate.swift */; };
 		BEF1663E2B750C3E006D53DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1663D2B750C3E006D53DA /* SceneDelegate.swift */; };
 		BEF166402B750C3E006D53DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF1663F2B750C3E006D53DA /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE3A7FE72B78FFEA00A61D06 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		BEF166382B750C3E006D53DA /* HaberProjesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaberProjesi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF1663B2B750C3E006D53DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF1663D2B750C3E006D53DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		BEF166532B751352006D53DA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BE3A7FE72B78FFEA00A61D06 /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				BEF1663C2B750C3E006D53DA /* AppDelegate.swift in Sources */,
 				BEF1665A2B751797006D53DA /* WebServices.swift in Sources */,
 				BEF166522B750F48006D53DA /* NewsCell.swift in Sources */,
+				BE3A7FE82B78FFEA00A61D06 /* NewsViewModel.swift in Sources */,
 				BEF166582B751425006D53DA /* News.swift in Sources */,
 				BEF1663E2B750C3E006D53DA /* SceneDelegate.swift in Sources */,
 			);
